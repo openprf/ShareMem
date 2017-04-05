@@ -1,0 +1,10 @@
+Library of wrapper for standart sharing memory functions
+
+1) Building the library
+- cd to lib/ directory
+- run build.sh scrypt
+
+2)Testing the library
+- cd to test/ directory
+- add path "./" to LD_LIBRARY_PATH eviroment variable  /* export LD_LIBRARY_PATH="./" */
+- run ./ShareMemTest
