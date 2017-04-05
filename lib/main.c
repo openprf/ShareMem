@@ -74,4 +74,5 @@ char* sharemem_get(char* mem_name, int* data_size)
 int sharemem_free(char* mem_name)
 {
 	shmdt(mem_name);
+	return 0;
 }
